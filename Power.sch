@@ -359,8 +359,6 @@ F 3 "" H 8100 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8100 1550 8350 1550
-Wire Wire Line
 	8100 1450 8350 1450
 $Comp
 L power:GND #PWR?
@@ -399,14 +397,14 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 5E256BCB
-P 8100 1550
+P 7400 1550
 AR Path="/5E256BCB" Ref="#PWR?"  Part="1" 
 AR Path="/5E2396F4/5E256BCB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8100 1400 50  0001 C CNN
-F 1 "+5V" V 8115 1678 50  0000 L CNN
-F 2 "" H 8100 1550 50  0001 C CNN
-F 3 "" H 8100 1550 50  0001 C CNN
-	1    8100 1550
+F 0 "#PWR?" H 7400 1400 50  0001 C CNN
+F 1 "+5V" V 7415 1678 50  0000 L CNN
+F 2 "" H 7400 1550 50  0001 C CNN
+F 3 "" H 7400 1550 50  0001 C CNN
+	1    7400 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -591,4 +589,19 @@ Wire Wire Line
 Wire Wire Line
 	5900 1550 5900 1600
 Connection ~ 5900 1600
+$Comp
+L Device:Fuse F?
+U 1 1 5E2D4EC5
+P 7600 1550
+F 0 "F?" V 7797 1550 50  0000 C CNN
+F 1 "Fuse" V 7706 1550 50  0000 C CNN
+F 2 "" V 7530 1550 50  0001 C CNN
+F 3 "~" H 7600 1550 50  0001 C CNN
+	1    7600 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 1550 7450 1550
+Wire Wire Line
+	7750 1550 8350 1550
 $EndSCHEMATC
