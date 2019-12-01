@@ -1,0 +1,679 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5DF136A3
+P 2850 1700
+AR Path="/5DF136A3" Ref="D?"  Part="1" 
+AR Path="/5DF0C54F/5DF136A3" Ref="D?"  Part="1" 
+F 0 "D?" V 2889 1582 50  0000 R CNN
+F 1 "12V_OK" V 2798 1582 50  0000 R CNN
+F 2 "" H 2850 1700 50  0001 C CNN
+F 3 "~" H 2850 1700 50  0001 C CNN
+	1    2850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF136A9
+P 2850 1450
+AR Path="/5DF136A9" Ref="R?"  Part="1" 
+AR Path="/5DF0C54F/5DF136A9" Ref="R?"  Part="1" 
+F 0 "R?" H 2791 1404 50  0000 R CNN
+F 1 "560Ohm" H 2791 1495 50  0000 R CNN
+F 2 "" H 2850 1450 50  0001 C CNN
+F 3 "~" H 2850 1450 50  0001 C CNN
+	1    2850 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF136AF
+P 2850 1950
+AR Path="/5DF136AF" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF136AF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 1700 50  0001 C CNN
+F 1 "GND" H 2855 1777 50  0000 C CNN
+F 2 "" H 2850 1950 50  0001 C CNN
+F 3 "" H 2850 1950 50  0001 C CNN
+	1    2850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1950 2850 1850
+$Comp
+L power:+12V #PWR?
+U 1 1 5DF136B6
+P 2850 1350
+AR Path="/5DF136B6" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF136B6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 1200 50  0001 C CNN
+F 1 "+12V" H 2865 1523 50  0000 C CNN
+F 2 "" H 2850 1350 50  0001 C CNN
+F 3 "" H 2850 1350 50  0001 C CNN
+	1    2850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DF136BC
+P 3400 1700
+AR Path="/5DF136BC" Ref="D?"  Part="1" 
+AR Path="/5DF0C54F/5DF136BC" Ref="D?"  Part="1" 
+F 0 "D?" V 3439 1582 50  0000 R CNN
+F 1 "5V_OK" V 3348 1582 50  0000 R CNN
+F 2 "" H 3400 1700 50  0001 C CNN
+F 3 "~" H 3400 1700 50  0001 C CNN
+	1    3400 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF136C2
+P 3400 1450
+AR Path="/5DF136C2" Ref="R?"  Part="1" 
+AR Path="/5DF0C54F/5DF136C2" Ref="R?"  Part="1" 
+F 0 "R?" H 3341 1404 50  0000 R CNN
+F 1 "150Ohm" H 3341 1495 50  0000 R CNN
+F 2 "" H 3400 1450 50  0001 C CNN
+F 3 "~" H 3400 1450 50  0001 C CNN
+	1    3400 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF136C8
+P 3400 1950
+AR Path="/5DF136C8" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF136C8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 1700 50  0001 C CNN
+F 1 "GND" H 3405 1777 50  0000 C CNN
+F 2 "" H 3400 1950 50  0001 C CNN
+F 3 "" H 3400 1950 50  0001 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1950 3400 1850
+$Comp
+L power:+5V #PWR?
+U 1 1 5DF136CF
+P 3400 1350
+AR Path="/5DF136CF" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF136CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 1200 50  0001 C CNN
+F 1 "+5V" H 3415 1523 50  0000 C CNN
+F 2 "" H 3400 1350 50  0001 C CNN
+F 3 "" H 3400 1350 50  0001 C CNN
+	1    3400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DF136D5
+P 1150 1350
+AR Path="/5DF136D5" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DF136D5" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1208 1468 50  0000 L CNN
+F 1 "GND" H 1208 1377 50  0000 L CNN
+F 2 "" H 1350 1350 50  0001 C CNN
+F 3 "~" H 1350 1350 50  0001 C CNN
+	1    1150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DF136DB
+P 1400 1350
+AR Path="/5DF136DB" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DF136DB" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1458 1468 50  0000 L CNN
+F 1 "3.3V" H 1458 1377 50  0000 L CNN
+F 2 "" H 1600 1350 50  0001 C CNN
+F 3 "~" H 1600 1350 50  0001 C CNN
+	1    1400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DF136E1
+P 1650 1350
+AR Path="/5DF136E1" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DF136E1" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1708 1468 50  0000 L CNN
+F 1 "5V" H 1708 1377 50  0000 L CNN
+F 2 "" H 1850 1350 50  0001 C CNN
+F 3 "~" H 1850 1350 50  0001 C CNN
+	1    1650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DF136E7
+P 1900 1350
+AR Path="/5DF136E7" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DF136E7" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1958 1468 50  0000 L CNN
+F 1 "12V" H 1958 1377 50  0000 L CNN
+F 2 "" H 2100 1350 50  0001 C CNN
+F 3 "~" H 2100 1350 50  0001 C CNN
+	1    1900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF136ED
+P 1150 1450
+AR Path="/5DF136ED" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF136ED" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1150 1200 50  0001 C CNN
+F 1 "GND" H 1155 1277 50  0000 C CNN
+F 2 "" H 1150 1450 50  0001 C CNN
+F 3 "" H 1150 1450 50  0001 C CNN
+	1    1150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5DF136F3
+P 1900 1450
+AR Path="/5DF136F3" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF136F3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1900 1300 50  0001 C CNN
+F 1 "+12V" H 1915 1623 50  0000 C CNN
+F 2 "" H 1900 1450 50  0001 C CNN
+F 3 "" H 1900 1450 50  0001 C CNN
+	1    1900 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DF136F9
+P 1650 1450
+AR Path="/5DF136F9" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF136F9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1650 1300 50  0001 C CNN
+F 1 "+5V" H 1665 1623 50  0000 C CNN
+F 2 "" H 1650 1450 50  0001 C CNN
+F 3 "" H 1650 1450 50  0001 C CNN
+	1    1650 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DF136FF
+P 1400 1450
+AR Path="/5DF136FF" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF136FF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1400 1300 50  0001 C CNN
+F 1 "+3.3V" H 1415 1623 50  0000 C CNN
+F 2 "" H 1400 1450 50  0001 C CNN
+F 3 "" H 1400 1450 50  0001 C CNN
+	1    1400 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 1450 1150 1350
+Wire Wire Line
+	1400 1450 1400 1350
+Wire Wire Line
+	1650 1450 1650 1350
+Wire Wire Line
+	1900 1450 1900 1350
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DF13709
+P 4300 1350
+AR Path="/5DF13709" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DF13709" Ref="TP?"  Part="1" 
+F 0 "TP?" H 4358 1468 50  0000 L CNN
+F 1 "LEFT_PWM" H 4358 1377 50  0000 L CNN
+F 2 "" H 4500 1350 50  0001 C CNN
+F 3 "~" H 4500 1350 50  0001 C CNN
+	1    4300 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 1350 3    50   Input ~ 0
+LEFT_MOTOR_PWM
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DF13710
+P 5050 1350
+AR Path="/5DF13710" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DF13710" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5108 1468 50  0000 L CNN
+F 1 "RIGHT_PWM" H 5108 1377 50  0000 L CNN
+F 2 "" H 5250 1350 50  0001 C CNN
+F 3 "~" H 5250 1350 50  0001 C CNN
+	1    5050 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 1350 3    50   Input ~ 0
+RIGHT_MOTOR_PWM
+Text GLabel 9350 1200 2    50   Output ~ 0
+LEFT_MOTOR_OUT
+$Comp
+L Device:R_Small R?
+U 1 1 5DF1F5AA
+P 9250 1200
+AR Path="/5DF1F5AA" Ref="R?"  Part="1" 
+AR Path="/5DF0C54F/5DF1F5AA" Ref="R?"  Part="1" 
+F 0 "R?" H 9191 1154 50  0000 R CNN
+F 1 "500Ohm" H 9191 1245 50  0000 R CNN
+F 2 "" H 9250 1200 50  0001 C CNN
+F 3 "~" H 9250 1200 50  0001 C CNN
+	1    9250 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DF1F5B0
+P 9000 1200
+AR Path="/5DF1F5B0" Ref="D?"  Part="1" 
+AR Path="/5DF0C54F/5DF1F5B0" Ref="D?"  Part="1" 
+F 0 "D?" H 9050 900 50  0000 R CNN
+F 1 "LEFT_MOTOR_OK" H 9050 1000 50  0000 R CNN
+F 2 "" H 9000 1200 50  0001 C CNN
+F 3 "~" H 9000 1200 50  0001 C CNN
+	1    9000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF1F5B6
+P 8850 1200
+AR Path="/5DF1F5B6" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF1F5B6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8850 950 50  0001 C CNN
+F 1 "GND" H 8855 1027 50  0000 C CNN
+F 2 "" H 8850 1200 50  0001 C CNN
+F 3 "" H 8850 1200 50  0001 C CNN
+	1    8850 1200
+	0    1    1    0   
+$EndComp
+Text GLabel 9350 2000 2    50   Output ~ 0
+RIGHT_MOTOR_OUT
+$Comp
+L Device:R_Small R?
+U 1 1 5DF1F5BD
+P 9250 2000
+AR Path="/5DF1F5BD" Ref="R?"  Part="1" 
+AR Path="/5DF0C54F/5DF1F5BD" Ref="R?"  Part="1" 
+F 0 "R?" H 9191 1954 50  0000 R CNN
+F 1 "500Ohm" H 9191 2045 50  0000 R CNN
+F 2 "" H 9250 2000 50  0001 C CNN
+F 3 "~" H 9250 2000 50  0001 C CNN
+	1    9250 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF1F5C3
+P 8850 2000
+AR Path="/5DF1F5C3" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5DF1F5C3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8850 1750 50  0001 C CNN
+F 1 "GND" H 8855 1827 50  0000 C CNN
+F 2 "" H 8850 2000 50  0001 C CNN
+F 3 "" H 8850 2000 50  0001 C CNN
+	1    8850 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DF1F5C9
+P 9000 2000
+AR Path="/5DF1F5C9" Ref="D?"  Part="1" 
+AR Path="/5DF0C54F/5DF1F5C9" Ref="D?"  Part="1" 
+F 0 "D?" H 9000 1750 50  0000 C CNN
+F 1 "RIGHT_MOTOR_OK" H 8750 1850 50  0000 C CNN
+F 2 "" H 9000 2000 50  0001 C CNN
+F 3 "~" H 9000 2000 50  0001 C CNN
+	1    9000 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 2550 3    50   Input ~ 0
+LEFT_ENCODER_A_3.3V
+Text GLabel 1150 2550 3    50   Input ~ 0
+LEFT_ENCODER_A_5V
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DFB7B44
+P 1150 2550
+AR Path="/5DFB7B44" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DFB7B44" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1208 2668 50  0000 L CNN
+F 1 "LEFT_ENCODER_A_5V" H 1208 2577 50  0000 L CNN
+F 2 "" H 1350 2550 50  0001 C CNN
+F 3 "~" H 1350 2550 50  0001 C CNN
+	1    1150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DFB8CAA
+P 2050 2550
+AR Path="/5DFB8CAA" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DFB8CAA" Ref="TP?"  Part="1" 
+F 0 "TP?" H 2108 2668 50  0000 L CNN
+F 1 "LEFT_ENCODER_A_3.3V" H 2108 2577 50  0000 L CNN
+F 2 "" H 2250 2550 50  0001 C CNN
+F 3 "~" H 2250 2550 50  0001 C CNN
+	1    2050 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 3700 3    50   Input ~ 0
+LEFT_ENCODER_B_3.3V
+Text GLabel 1150 3700 3    50   Input ~ 0
+LEFT_ENCODER_B_5V
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DFC08B8
+P 1150 3700
+AR Path="/5DFC08B8" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DFC08B8" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1208 3818 50  0000 L CNN
+F 1 "LEFT_ENCODER_B_5V" H 1208 3727 50  0000 L CNN
+F 2 "" H 1350 3700 50  0001 C CNN
+F 3 "~" H 1350 3700 50  0001 C CNN
+	1    1150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DFC08C2
+P 2050 3700
+AR Path="/5DFC08C2" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DFC08C2" Ref="TP?"  Part="1" 
+F 0 "TP?" H 2108 3818 50  0000 L CNN
+F 1 "LEFT_ENCODER_B_3.3V" H 2108 3727 50  0000 L CNN
+F 2 "" H 2250 3700 50  0001 C CNN
+F 3 "~" H 2250 3700 50  0001 C CNN
+	1    2050 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 2550 3    50   Input ~ 0
+RIGHT_ENCODER_A_3.3V
+Text GLabel 3400 2550 3    50   Input ~ 0
+RIGHT_ENCODER_A_5V
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DFC46D5
+P 3400 2550
+AR Path="/5DFC46D5" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DFC46D5" Ref="TP?"  Part="1" 
+F 0 "TP?" H 3458 2668 50  0000 L CNN
+F 1 "RIGHT_ENCODER_A_5V" H 3458 2577 50  0000 L CNN
+F 2 "" H 3600 2550 50  0001 C CNN
+F 3 "~" H 3600 2550 50  0001 C CNN
+	1    3400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DFC46DF
+P 4300 2550
+AR Path="/5DFC46DF" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DFC46DF" Ref="TP?"  Part="1" 
+F 0 "TP?" H 4358 2668 50  0000 L CNN
+F 1 "RIGHT_ENCODER_A_3.3V" H 4358 2577 50  0000 L CNN
+F 2 "" H 4500 2550 50  0001 C CNN
+F 3 "~" H 4500 2550 50  0001 C CNN
+	1    4300 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 3700 3    50   Input ~ 0
+RIGHT_ENCODER_B_3.3V
+Text GLabel 3400 3700 3    50   Input ~ 0
+RIGHT_ENCODER_B_5V
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DFC46EB
+P 3400 3700
+AR Path="/5DFC46EB" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DFC46EB" Ref="TP?"  Part="1" 
+F 0 "TP?" H 3458 3818 50  0000 L CNN
+F 1 "RIGHT_ENCODER_B_5V" H 3458 3727 50  0000 L CNN
+F 2 "" H 3600 3700 50  0001 C CNN
+F 3 "~" H 3600 3700 50  0001 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DFC46F5
+P 4300 3700
+AR Path="/5DFC46F5" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5DFC46F5" Ref="TP?"  Part="1" 
+F 0 "TP?" H 4358 3818 50  0000 L CNN
+F 1 "RIGHT_ENCODER_B_3.3V" H 4358 3727 50  0000 L CNN
+F 2 "" H 4500 3700 50  0001 C CNN
+F 3 "~" H 4500 3700 50  0001 C CNN
+	1    4300 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 2750 2    50   Input ~ 0
+RASPBERRY_3.3V
+$Comp
+L Device:R_Small R?
+U 1 1 5E14E5CA
+P 9200 2750
+AR Path="/5E14E5CA" Ref="R?"  Part="1" 
+AR Path="/5DF0C54F/5E14E5CA" Ref="R?"  Part="1" 
+F 0 "R?" V 9396 2750 50  0000 C CNN
+F 1 "65Ohm" V 9305 2750 50  0000 C CNN
+F 2 "" H 9200 2750 50  0001 C CNN
+F 3 "~" H 9200 2750 50  0001 C CNN
+	1    9200 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E14E5D4
+P 8700 2750
+AR Path="/5E14E5D4" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5E14E5D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8700 2500 50  0001 C CNN
+F 1 "GND" H 8705 2577 50  0000 C CNN
+F 2 "" H 8700 2750 50  0001 C CNN
+F 3 "" H 8700 2750 50  0001 C CNN
+	1    8700 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8700 2750 8800 2750
+$Comp
+L Device:LED D?
+U 1 1 5E154D60
+P 8950 3150
+AR Path="/5E154D60" Ref="D?"  Part="1" 
+AR Path="/5DF0C54F/5E154D60" Ref="D?"  Part="1" 
+F 0 "D?" H 9000 3350 50  0000 R CNN
+F 1 "3.3V_OK" H 9000 3250 50  0000 R CNN
+F 2 "" H 8950 3150 50  0001 C CNN
+F 3 "~" H 8950 3150 50  0001 C CNN
+	1    8950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E154D6A
+P 9200 3150
+AR Path="/5E154D6A" Ref="R?"  Part="1" 
+AR Path="/5DF0C54F/5E154D6A" Ref="R?"  Part="1" 
+F 0 "R?" V 9396 3150 50  0000 C CNN
+F 1 "65Ohm" V 9305 3150 50  0000 C CNN
+F 2 "" H 9200 3150 50  0001 C CNN
+F 3 "~" H 9200 3150 50  0001 C CNN
+	1    9200 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E154D74
+P 8700 3150
+AR Path="/5E154D74" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5E154D74" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8700 2900 50  0001 C CNN
+F 1 "GND" H 8705 2977 50  0000 C CNN
+F 2 "" H 8700 3150 50  0001 C CNN
+F 3 "" H 8700 3150 50  0001 C CNN
+	1    8700 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8700 3150 8800 3150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E156BB6
+P 9300 3150
+F 0 "#PWR?" H 9300 3000 50  0001 C CNN
+F 1 "+3.3V" V 9315 3278 50  0000 L CNN
+F 2 "" H 9300 3150 50  0001 C CNN
+F 3 "" H 9300 3150 50  0001 C CNN
+	1    9300 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E14E5C0
+P 8950 2750
+AR Path="/5E14E5C0" Ref="D?"  Part="1" 
+AR Path="/5DF0C54F/5E14E5C0" Ref="D?"  Part="1" 
+F 0 "D?" H 8950 2950 50  0000 C CNN
+F 1 "RASPI_3.3V_OK" H 8750 2850 50  0000 C CNN
+F 2 "" H 8950 2750 50  0001 C CNN
+F 3 "~" H 8950 2750 50  0001 C CNN
+	1    8950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E1B0C55
+P 8950 3600
+AR Path="/5E1B0C55" Ref="D?"  Part="1" 
+AR Path="/5DF0C54F/5E1B0C55" Ref="D?"  Part="1" 
+F 0 "D?" H 9000 3800 50  0000 R CNN
+F 1 "RASP_HEARTBEAT" H 9000 3700 50  0000 R CNN
+F 2 "" H 8950 3600 50  0001 C CNN
+F 3 "~" H 8950 3600 50  0001 C CNN
+	1    8950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E1B0C5F
+P 9200 3600
+AR Path="/5E1B0C5F" Ref="R?"  Part="1" 
+AR Path="/5DF0C54F/5E1B0C5F" Ref="R?"  Part="1" 
+F 0 "R?" V 9396 3600 50  0000 C CNN
+F 1 "65Ohm" V 9305 3600 50  0000 C CNN
+F 2 "" H 9200 3600 50  0001 C CNN
+F 3 "~" H 9200 3600 50  0001 C CNN
+	1    9200 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1B0C69
+P 8700 3600
+AR Path="/5E1B0C69" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5E1B0C69" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8700 3350 50  0001 C CNN
+F 1 "GND" H 8705 3427 50  0000 C CNN
+F 2 "" H 8700 3600 50  0001 C CNN
+F 3 "" H 8700 3600 50  0001 C CNN
+	1    8700 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8700 3600 8800 3600
+Text GLabel 9300 3600 2    50   Input ~ 0
+RASPBERRY_HEARTBEAT
+$Comp
+L Device:LED D?
+U 1 1 5E1B27B0
+P 8950 4000
+AR Path="/5E1B27B0" Ref="D?"  Part="1" 
+AR Path="/5DF0C54F/5E1B27B0" Ref="D?"  Part="1" 
+F 0 "D?" H 9000 4200 50  0000 R CNN
+F 1 "TEENSY_HEARTBEAT" H 9000 4100 50  0000 R CNN
+F 2 "" H 8950 4000 50  0001 C CNN
+F 3 "~" H 8950 4000 50  0001 C CNN
+	1    8950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E1B27BA
+P 9200 4000
+AR Path="/5E1B27BA" Ref="R?"  Part="1" 
+AR Path="/5DF0C54F/5E1B27BA" Ref="R?"  Part="1" 
+F 0 "R?" V 9396 4000 50  0000 C CNN
+F 1 "65Ohm" V 9305 4000 50  0000 C CNN
+F 2 "" H 9200 4000 50  0001 C CNN
+F 3 "~" H 9200 4000 50  0001 C CNN
+	1    9200 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1B27C4
+P 8700 4000
+AR Path="/5E1B27C4" Ref="#PWR?"  Part="1" 
+AR Path="/5DF0C54F/5E1B27C4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8700 3750 50  0001 C CNN
+F 1 "GND" H 8705 3827 50  0000 C CNN
+F 2 "" H 8700 4000 50  0001 C CNN
+F 3 "" H 8700 4000 50  0001 C CNN
+	1    8700 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8700 4000 8800 4000
+Text GLabel 9300 4000 2    50   Input ~ 0
+TEENSY_HEARTBEAT
+Text GLabel 5500 2550 3    50   Input ~ 0
+SDA_0
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E1D837D
+P 5500 2550
+AR Path="/5E1D837D" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5E1D837D" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5558 2668 50  0000 L CNN
+F 1 "SDA_0" H 5558 2577 50  0000 L CNN
+F 2 "" H 5700 2550 50  0001 C CNN
+F 3 "~" H 5700 2550 50  0001 C CNN
+	1    5500 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 2550 3    50   Input ~ 0
+SCL_0
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E1DD8C3
+P 5900 2550
+AR Path="/5E1DD8C3" Ref="TP?"  Part="1" 
+AR Path="/5DF0C54F/5E1DD8C3" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5958 2668 50  0000 L CNN
+F 1 "SCL_0" H 5958 2577 50  0000 L CNN
+F 2 "" H 6100 2550 50  0001 C CNN
+F 3 "~" H 6100 2550 50  0001 C CNN
+	1    5900 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
