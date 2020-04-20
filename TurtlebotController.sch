@@ -21,6 +21,7 @@ F 0 "U1" H 2750 4115 50  0000 C CNN
 F 1 "Teensy4.0" H 2750 4024 50  0000 C CNN
 F 2 "teensy:Teensy40" H 2350 2700 50  0001 C CNN
 F 3 "" H 2350 2700 50  0001 C CNN
+F 4 " 1568-DEV-15583-ND" H 2750 2500 50  0001 C CNN "DigiKey"
 	1    2750 2500
 	1    0    0    -1  
 $EndComp
@@ -327,6 +328,7 @@ F 0 "J1" H 6100 4531 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 6100 4440 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6100 3050 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 6100 3050 50  0001 C CNN
+F 4 " 1528-1785-ND " H 6100 3050 50  0001 C CNN "DigiKey"
 	1    6100 3050
 	1    0    0    -1  
 $EndComp
@@ -482,7 +484,7 @@ Text GLabel 7000 3750 2    50   Input ~ 0
 RASPBERRY_HEARTBEAT
 Wire Wire Line
 	7000 3750 6900 3750
-Text GLabel 3950 3850 2    50   Input ~ 0
+Text GLabel 1650 1350 0    50   Input ~ 0
 TEENSY_HEARTBEAT
 Wire Wire Line
 	3950 3850 3850 3850
@@ -585,4 +587,49 @@ F 3 "~" H 5950 1000 50  0001 C CNN
 	1    5950 1000
 	1    0    0    -1  
 $EndComp
+Text GLabel 3950 3850 2    50   Input ~ 0
+CURRENT_OUT
+$Comp
+L pololu_parts:UltimateSensorFusion_MPU9250_PeskyProducts U7
+U 1 1 5DFB05EC
+P 6300 5650
+F 0 "U7" H 6275 6175 50  0000 C CNN
+F 1 "UltimateSensorFusion_MPU9250_PeskyProducts" H 6275 6084 50  0000 C CNN
+F 2 "TurtlebotController:UltimateSensorFusion_MPU9250" H 6300 5650 50  0001 C CNN
+F 3 "" H 6300 5650 50  0001 C CNN
+	1    6300 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 5350 0    50   Input ~ 0
+SCL_0
+Text GLabel 5850 5450 0    50   Input ~ 0
+SDA_0
+Text GLabel 1650 1250 0    50   Input ~ 0
+MPU_INTERRUPT
+Text GLabel 5850 5550 0    50   Input ~ 0
+MPU_INTERRUPT
+$Comp
+L power:GND #PWR0171
+U 1 1 5DFCDA8F
+P 6700 5350
+F 0 "#PWR0171" H 6700 5100 50  0001 C CNN
+F 1 "GND" V 6705 5222 50  0000 R CNN
+F 2 "" H 6700 5350 50  0001 C CNN
+F 3 "" H 6700 5350 50  0001 C CNN
+	1    6700 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0172
+U 1 1 5DFCE474
+P 6950 5450
+F 0 "#PWR0172" H 6950 5300 50  0001 C CNN
+F 1 "+3.3V" H 6965 5623 50  0000 C CNN
+F 2 "" H 6950 5450 50  0001 C CNN
+F 3 "" H 6950 5450 50  0001 C CNN
+	1    6950 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 5450 6700 5450
 $EndSCHEMATC
