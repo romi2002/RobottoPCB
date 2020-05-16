@@ -168,13 +168,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 3450 1650 3450
 Text GLabel 1600 3750 0    50   Input ~ 0
-LEFT_MOTOR_DIAGA
+LEFT_MOTOR_INA
 Text GLabel 1600 3850 0    50   Input ~ 0
-LEFT_MOTOR_DIAGB
+LEFT_MOTOR_INB
 Text GLabel 1600 1850 0    50   Input ~ 0
-RIGHT_MOTOR_DIAGA
+RIGHT_MOTOR_INA
 Text GLabel 1600 2150 0    50   Input ~ 0
-RIGHT_MOTOR_DIAGB
+RIGHT_MOTOR_INB
 Wire Wire Line
 	1600 1650 1650 1650
 Wire Wire Line
@@ -460,7 +460,7 @@ Wire Wire Line
 	1600 2350 1650 2350
 Wire Wire Line
 	1600 2250 1650 2250
-Text GLabel 1600 3050 0    50   Input ~ 0
+Text GLabel 1650 1350 0    50   Input ~ 0
 TEENSY_SCK
 Wire Wire Line
 	1600 3050 1650 3050
@@ -484,7 +484,7 @@ Text GLabel 7000 3750 2    50   Input ~ 0
 RASPBERRY_HEARTBEAT
 Wire Wire Line
 	7000 3750 6900 3750
-Text GLabel 1650 1350 0    50   Input ~ 0
+Text GLabel 1600 3050 0    50   Input ~ 0
 TEENSY_HEARTBEAT
 Wire Wire Line
 	3950 3850 3850 3850

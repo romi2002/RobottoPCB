@@ -50,7 +50,7 @@ F 0 "U5" V 2296 1256 50  0000 R CNN
 F 1 "ACS711xLCTR-25AB" V 2205 1256 50  0000 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2600 1650 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx" H 2250 1700 50  0001 C CNN
-F 4 " 620-1373-1-ND" H 2250 1700 50  0001 C CNN "DigiKey"
+F 4 " 620-1372-1-ND" H 2250 1700 50  0001 C CNN "DigiKey"
 	1    2250 1700
 	0    -1   -1   0   
 $EndComp
