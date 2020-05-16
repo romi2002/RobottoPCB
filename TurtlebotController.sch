@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -135,52 +135,26 @@ F 3 "" H 1550 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1550 2650 1650 2650
-Text GLabel 1600 3150 0    50   Input ~ 0
-LEFT_MOTOR_PWM
-Text GLabel 1600 3250 0    50   Input ~ 0
-RIGHT_MOTOR_PWM
 Wire Wire Line
 	1600 1450 1650 1450
 Wire Wire Line
 	1600 1550 1650 1550
-Text GLabel 1600 1650 0    50   Input ~ 0
-LEFT_ENCODER_A_3.3V
-Text GLabel 1600 1750 0    50   Input ~ 0
-LEFT_ENCODER_B_3.3V
 Wire Wire Line
 	1600 3850 1650 3850
 Wire Wire Line
 	1600 3750 1650 3750
-Text GLabel 1600 1550 0    50   Input ~ 0
-RIGHT_ENCODER_B_3.3V
-Text GLabel 1600 1450 0    50   Input ~ 0
-RIGHT_ENCODER_A_3.3V
 Wire Wire Line
 	1600 3150 1650 3150
 Wire Wire Line
 	1600 3250 1650 3250
-Text GLabel 1600 3350 0    50   Input ~ 0
-LEFT_MOTOR_CURRENT
-Text GLabel 1600 3450 0    50   Input ~ 0
-RIGHT_MOTOR_CURRENT
 Wire Wire Line
 	1600 3350 1650 3350
 Wire Wire Line
 	1600 3450 1650 3450
-Text GLabel 1600 3750 0    50   Input ~ 0
-LEFT_MOTOR_INA
-Text GLabel 1600 3850 0    50   Input ~ 0
-LEFT_MOTOR_INB
-Text GLabel 1600 1850 0    50   Input ~ 0
-RIGHT_MOTOR_INA
-Text GLabel 1600 2150 0    50   Input ~ 0
-RIGHT_MOTOR_INB
 Wire Wire Line
 	1600 1650 1650 1650
 Wire Wire Line
 	1600 1750 1650 1750
-Wire Wire Line
-	1600 1850 1650 1850
 $Comp
 L pololu_parts:MinIMU-9_V5 U2
 U 1 1 5E062028
@@ -432,9 +406,9 @@ Wire Wire Line
 	6250 1450 6300 1450
 Wire Wire Line
 	1600 2150 1650 2150
-Text GLabel 1600 1950 0    50   Input ~ 0
+Text GLabel 1600 3850 0    50   Input ~ 0
 TEENSY_RX
-Text GLabel 1600 2050 0    50   Input ~ 0
+Text GLabel 1600 3750 0    50   Input ~ 0
 TEENSY_TX
 Wire Wire Line
 	1600 2050 1650 2050
@@ -448,20 +422,12 @@ Wire Wire Line
 	5250 2250 5300 2250
 Wire Wire Line
 	5250 2150 5300 2150
-Text GLabel 1600 2250 0    50   Input ~ 0
-TEENSY_CS
-Text GLabel 1600 2350 0    50   Input ~ 0
-TEENSY_MOSI
-Text GLabel 1600 2450 0    50   Input ~ 0
-TEENSY_MISO
 Wire Wire Line
 	1600 2450 1650 2450
 Wire Wire Line
 	1600 2350 1650 2350
 Wire Wire Line
 	1600 2250 1650 2250
-Text GLabel 1650 1350 0    50   Input ~ 0
-TEENSY_SCK
 Wire Wire Line
 	1600 3050 1650 3050
 Text GLabel 7000 3550 2    50   Input ~ 0
@@ -498,9 +464,9 @@ Connection ~ 8400 5050
 Wire Wire Line
 	8150 5150 8400 5150
 Connection ~ 8400 5150
-Text GLabel 950  3550 0    50   Input ~ 0
+Text GLabel 800  3550 0    50   Input ~ 0
 SDA_0
-Text GLabel 950  3650 0    50   Input ~ 0
+Text GLabel 800  3650 0    50   Input ~ 0
 SCL_0
 $Comp
 L Device:Jumper_NO_Small JP4
@@ -539,31 +505,23 @@ Wire Wire Line
 $Comp
 L Device:Jumper_NC_Small JP2
 U 1 1 5E207A97
-P 1450 3650
-F 0 "JP2" H 1450 3862 50  0000 C CNN
-F 1 "SCL_TEENSY" H 1450 3771 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 1450 3650 50  0001 C CNN
-F 3 "~" H 1450 3650 50  0001 C CNN
-	1    1450 3650
+P 900 3650
+F 0 "JP2" H 900 3450 50  0000 C CNN
+F 1 "SCL_TEENSY" H 850 3550 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 900 3650 50  0001 C CNN
+F 3 "~" H 900 3650 50  0001 C CNN
+	1    900  3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  3550 1000 3550
-Wire Wire Line
-	1200 3550 1650 3550
-Wire Wire Line
-	950  3650 1350 3650
-Wire Wire Line
-	1550 3650 1650 3650
 $Comp
 L Device:Jumper_NC_Small JP1
 U 1 1 5E207299
-P 1100 3550
-F 0 "JP1" H 1100 3762 50  0000 C CNN
-F 1 "SDA_TEENSY" H 1100 3671 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 1100 3550 50  0001 C CNN
-F 3 "~" H 1100 3550 50  0001 C CNN
-	1    1100 3550
+P 900 3550
+F 0 "JP1" H 900 3762 50  0000 C CNN
+F 1 "SDA_TEENSY" H 900 3671 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 900 3550 50  0001 C CNN
+F 3 "~" H 900 3550 50  0001 C CNN
+	1    900  3550
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -572,8 +530,6 @@ U 5E2396F4
 F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
-Text GLabel 3950 3750 2    50   Input ~ 0
-BAT_VOLTAGE
 Wire Wire Line
 	3850 3750 3950 3750
 $Comp
@@ -587,8 +543,6 @@ F 3 "~" H 5950 1000 50  0001 C CNN
 	1    5950 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 3950 3850 2    50   Input ~ 0
-CURRENT_OUT
 $Comp
 L pololu_parts:UltimateSensorFusion_MPU9250_PeskyProducts U7
 U 1 1 5DFB05EC
@@ -604,7 +558,7 @@ Text GLabel 5850 5350 0    50   Input ~ 0
 SCL_0
 Text GLabel 5850 5450 0    50   Input ~ 0
 SDA_0
-Text GLabel 1650 1250 0    50   Input ~ 0
+Text GLabel 1600 2350 0    50   Input ~ 0
 MPU_INTERRUPT
 Text GLabel 5850 5550 0    50   Input ~ 0
 MPU_INTERRUPT
@@ -632,4 +586,76 @@ F 3 "" H 6950 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 5450 6700 5450
+$Sheet
+S 4250 6300 2400 1250
+U 5ED727AE
+F0 "TeensyIO" 50
+F1 "TeensyIO.sch" 50
+$EndSheet
+Text GLabel 1600 1650 0    50   Input ~ 0
+MOTOR_3_ENCODER_A
+Text GLabel 1600 1750 0    50   Input ~ 0
+MOTOR_3_ENCODER_B
+Text GLabel 4100 2450 2    50   Input ~ 0
+MOTOR_4_ENCODER_B
+Text GLabel 1600 1950 0    50   Input ~ 0
+MOTOR_4_ENCODER_A
+Text GLabel 1600 1250 0    50   Input ~ 0
+MOTOR_1_ENCODER_A
+Text GLabel 1600 1350 0    50   Input ~ 0
+MOTOR_1_ENCODER_B
+Text GLabel 1600 1550 0    50   Input ~ 0
+MOTOR_2_ENCODER_B
+Text GLabel 1600 1450 0    50   Input ~ 0
+MOTOR_2_ENCODER_A
+Wire Wire Line
+	3850 2450 4050 2450
+$Comp
+L Connector:TestPoint TP17
+U 1 1 5F21F998
+P 4050 2550
+F 0 "TP17" H 3992 2576 50  0000 R CNN
+F 1 "TestPoint" H 3992 2667 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 4250 2550 50  0001 C CNN
+F 3 "~" H 4250 2550 50  0001 C CNN
+	1    4050 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 2550 4050 2450
+Connection ~ 4050 2450
+Wire Wire Line
+	4050 2450 4100 2450
+Wire Wire Line
+	1600 1250 1650 1250
+Wire Wire Line
+	1600 1350 1650 1350
+Text GLabel 1600 2250 0    50   Input ~ 0
+MOTOR_4_PWM
+Text GLabel 1600 2050 0    50   Input ~ 0
+MOTOR_2_PWM
+Text GLabel 1600 2150 0    50   Input ~ 0
+MOTOR_3_PWM
+Text GLabel 1600 1850 0    50   Input ~ 0
+MOTOR_1_PWM
+Wire Wire Line
+	1600 1850 1650 1850
+Text GLabel 3950 3750 2    50   Input ~ 0
+BAT_VOLTAGE
+Text GLabel 3950 3850 2    50   Input ~ 0
+CURRENT_OUT
+Text GLabel 1600 3350 0    50   Output ~ 0
+MOTOR_2_CS
+Text GLabel 1600 3450 0    50   Output ~ 0
+MOTOR_1_CS
+Text GLabel 1600 3150 0    50   Output ~ 0
+MOTOR_4_CS
+Text GLabel 1600 3250 0    50   Output ~ 0
+MOTOR_3_CS
+Wire Wire Line
+	1000 3650 1650 3650
+Wire Wire Line
+	1650 3550 1000 3550
+Text GLabel 1600 2450 0    50   Input ~ 0
+TEENSY_DEBUG
 $EndSCHEMATC
