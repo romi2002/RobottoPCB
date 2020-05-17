@@ -246,19 +246,6 @@ F 3 "" H 2000 5250 50  0001 C CNN
 	1    2000 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0146
-U 1 1 5EC0369F
-P 2200 5250
-F 0 "#PWR0146" H 2200 5100 50  0001 C CNN
-F 1 "+5V" H 2215 5423 50  0000 C CNN
-F 2 "" H 2200 5250 50  0001 C CNN
-F 3 "" H 2200 5250 50  0001 C CNN
-	1    2200 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 5250 2200 5650
 Wire Wire Line
 	2200 5650 2200 5800
 Connection ~ 2200 5650
@@ -1016,19 +1003,6 @@ F 3 "" H 4950 5250 50  0001 C CNN
 	1    4950 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0196
-U 1 1 5EFA5CB7
-P 5150 5250
-F 0 "#PWR0196" H 5150 5100 50  0001 C CNN
-F 1 "+5V" H 5165 5423 50  0000 C CNN
-F 2 "" H 5150 5250 50  0001 C CNN
-F 3 "" H 5150 5250 50  0001 C CNN
-	1    5150 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 5250 5150 5650
 Wire Wire Line
 	5150 5650 5150 5800
 Connection ~ 5150 5650
@@ -1205,4 +1179,53 @@ Wire Wire Line
 	9800 1650 10250 1650
 Wire Wire Line
 	9800 3600 10250 3600
+Wire Wire Line
+	3950 5150 3850 5150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EC1A386
+P 3950 5150
+AR Path="/5EC1A386" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C61A9/5EC1A386" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 3950 5000 50  0001 C CNN
+F 1 "+3.3V" V 3965 5278 50  0000 L CNN
+F 2 "" H 3950 5150 50  0001 C CNN
+F 3 "" H 3950 5150 50  0001 C CNN
+	1    3950 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Bridged12 JP14
+U 1 1 5EC1A390
+P 3600 5150
+F 0 "JP14" H 3600 5354 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 3600 5263 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 3600 5150 50  0001 C CNN
+F 3 "~" H 3600 5150 50  0001 C CNN
+	1    3600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EC1A39A
+P 3350 5150
+AR Path="/5EC1A39A" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C61A9/5EC1A39A" Ref="#PWR0196"  Part="1" 
+F 0 "#PWR0196" H 3350 5000 50  0001 C CNN
+F 1 "+5V" V 3365 5278 50  0000 L CNN
+F 2 "" H 3350 5150 50  0001 C CNN
+F 3 "" H 3350 5150 50  0001 C CNN
+	1    3350 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 5300 5150 5300
+Wire Wire Line
+	5150 5300 5150 5650
+NoConn ~ 4950 5300
+Wire Wire Line
+	3600 5300 2200 5300
+Connection ~ 3600 5300
+Wire Wire Line
+	2200 5300 2200 5650
 $EndSCHEMATC
