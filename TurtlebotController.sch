@@ -235,6 +235,7 @@ F 0 "C2" H 10142 5346 50  0000 L CNN
 F 1 "10uF" H 10142 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10050 5300 50  0001 C CNN
 F 3 "~" H 10050 5300 50  0001 C CNN
+F 4 "478-8646-1-ND" H 10050 5300 50  0001 C CNN "DigiKey"
 	1    10050 5300
 	1    0    0    -1  
 $EndComp
@@ -658,4 +659,44 @@ Wire Wire Line
 	1650 3550 1000 3550
 Text GLabel 1600 2450 0    50   Input ~ 0
 TEENSY_DEBUG
+$Comp
+L Connector:TestPoint TP18
+U 1 1 5EEE1FF2
+P 950 5150
+F 0 "TP18" H 1008 5268 50  0000 L CNN
+F 1 "TestPoint" H 1008 5177 50  0000 L CNN
+F 2 "" H 1150 5150 50  0001 C CNN
+F 3 "~" H 1150 5150 50  0001 C CNN
+F 4 "S7047-ND" H 950 5150 50  0001 C CNN "DigiKey"
+	1    950  5150
+	1    0    0    -1  
+$EndComp
+Text Notes 900  4900 0    50   ~ 0
+(just for digikey)
+$Comp
+L Connector:TestPoint TP19
+U 1 1 5EEE6208
+P 950 5200
+F 0 "TP19" H 892 5226 50  0000 R CNN
+F 1 "TestPoint" H 892 5317 50  0000 R CNN
+F 2 "" H 1150 5200 50  0001 C CNN
+F 3 "~" H 1150 5200 50  0001 C CNN
+F 4 "S7047-ND" H 950 5200 50  0001 C CNN "DigiKey"
+	1    950  5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP20
+U 1 1 5EEE71EE
+P 1400 5150
+F 0 "TP20" H 1458 5268 50  0000 L CNN
+F 1 "TestPoint" H 1458 5177 50  0000 L CNN
+F 2 "" H 1600 5150 50  0001 C CNN
+F 3 "~" H 1600 5150 50  0001 C CNN
+F 4 "S7038-ND" H 1400 5150 50  0001 C CNN "DigiKey"
+	1    1400 5150
+	1    0    0    -1  
+$EndComp
+Text Notes 950  5500 0    50   ~ 0
+Teensy Headers
 $EndSCHEMATC

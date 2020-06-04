@@ -188,6 +188,7 @@ F 0 "U8" H 2100 5711 50  0000 C CNN
 F 1 "TXB0104D" H 2100 5620 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2100 5750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 2210 6595 50  0001 C CNN
+F 4 "296-21928-1-ND" H 2100 6500 50  0001 C CNN "DigiKey"
 	1    2100 6500
 	1    0    0    -1  
 $EndComp
@@ -199,6 +200,7 @@ F 0 "C8" V 1671 5650 50  0000 C CNN
 F 1 "0.1uF" V 1762 5650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1900 5650 50  0001 C CNN
 F 3 "~" H 1900 5650 50  0001 C CNN
+F 4 "399-1100-1-ND" H 1900 5650 50  0001 C CNN "DigiKey"
 	1    1900 5650
 	0    1    1    0   
 $EndComp
@@ -210,6 +212,7 @@ F 0 "C9" V 2071 5650 50  0000 C CNN
 F 1 "0.1uF" V 2162 5650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2300 5650 50  0001 C CNN
 F 3 "~" H 2300 5650 50  0001 C CNN
+F 4 "399-1100-1-ND" H 2300 5650 50  0001 C CNN "DigiKey"
 	1    2300 5650
 	0    1    1    0   
 $EndComp
@@ -945,6 +948,7 @@ F 0 "U10" H 5050 5711 50  0000 C CNN
 F 1 "TXB0104D" H 5050 5620 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5050 5750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 5160 6595 50  0001 C CNN
+F 4 "296-21928-1-ND" H 5050 6500 50  0001 C CNN "DigiKey"
 	1    5050 6500
 	1    0    0    -1  
 $EndComp
@@ -956,6 +960,7 @@ F 0 "C10" V 4621 5650 50  0000 C CNN
 F 1 "0.1uF" V 4712 5650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 5650 50  0001 C CNN
 F 3 "~" H 4850 5650 50  0001 C CNN
+F 4 "399-1100-1-ND" H 4850 5650 50  0001 C CNN "DigiKey"
 	1    4850 5650
 	0    1    1    0   
 $EndComp
@@ -967,6 +972,7 @@ F 0 "C11" V 5021 5650 50  0000 C CNN
 F 1 "0.1uF" V 5112 5650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 5650 50  0001 C CNN
 F 3 "~" H 5250 5650 50  0001 C CNN
+F 4 "399-1100-1-ND" H 5250 5650 50  0001 C CNN "DigiKey"
 	1    5250 5650
 	0    1    1    0   
 $EndComp
@@ -1119,6 +1125,7 @@ F 0 "J9" V 1164 862 50  0000 R CNN
 F 1 "Screw_Terminal_01x02" V 1073 862 50  0000 R CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1200 1050 50  0001 C CNN
 F 3 "~" H 1200 1050 50  0001 C CNN
+F 4 "277-1247-ND" H 1200 1050 50  0001 C CNN "DigiKey"
 	1    1200 1050
 	0    -1   -1   0   
 $EndComp
@@ -1134,6 +1141,7 @@ F 0 "J10" V 1164 1662 50  0000 R CNN
 F 1 "Screw_Terminal_01x02" V 1073 1662 50  0000 R CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1200 1850 50  0001 C CNN
 F 3 "~" H 1200 1850 50  0001 C CNN
+F 4 "277-1247-ND" H 1200 1850 50  0001 C CNN "DigiKey"
 	1    1200 1850
 	0    -1   -1   0   
 $EndComp
@@ -1149,6 +1157,7 @@ F 0 "J11" V 1164 2462 50  0000 R CNN
 F 1 "Screw_Terminal_01x02" V 1073 2462 50  0000 R CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1200 2650 50  0001 C CNN
 F 3 "~" H 1200 2650 50  0001 C CNN
+F 4 "277-1247-ND" H 1200 2650 50  0001 C CNN "DigiKey"
 	1    1200 2650
 	0    -1   -1   0   
 $EndComp
@@ -1164,6 +1173,7 @@ F 0 "J12" V 1164 3262 50  0000 R CNN
 F 1 "Screw_Terminal_01x02" V 1073 3262 50  0000 R CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 1200 3450 50  0001 C CNN
 F 3 "~" H 1200 3450 50  0001 C CNN
+F 4 "277-1247-ND" H 1200 3450 50  0001 C CNN "DigiKey"
 	1    1200 3450
 	0    -1   -1   0   
 $EndComp
@@ -1228,4 +1238,152 @@ Wire Wire Line
 Connection ~ 3600 5300
 Wire Wire Line
 	2200 5300 2200 5650
+$Comp
+L Connector:TestPoint TP21
+U 1 1 5EF090F9
+P 850 4500
+F 0 "TP21" H 908 4618 50  0000 L CNN
+F 1 "TestPoint" H 908 4527 50  0000 L CNN
+F 2 "" H 1050 4500 50  0001 C CNN
+F 3 "~" H 1050 4500 50  0001 C CNN
+F 4 "S7043-ND" H 850 4500 50  0001 C CNN "DigiKey"
+	1    850  4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 5EF09D1C
+P 950 4500
+F 0 "TP23" H 1008 4618 50  0000 L CNN
+F 1 "TestPoint" H 1008 4527 50  0000 L CNN
+F 2 "" H 1150 4500 50  0001 C CNN
+F 3 "~" H 1150 4500 50  0001 C CNN
+F 4 "S7043-ND" H 950 4500 50  0001 C CNN "DigiKey"
+	1    950  4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP25
+U 1 1 5EF09F5F
+P 1050 4500
+F 0 "TP25" H 1108 4618 50  0000 L CNN
+F 1 "TestPoint" H 1108 4527 50  0000 L CNN
+F 2 "" H 1250 4500 50  0001 C CNN
+F 3 "~" H 1250 4500 50  0001 C CNN
+F 4 "S7043-ND" H 1050 4500 50  0001 C CNN "DigiKey"
+	1    1050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP27
+U 1 1 5EF0A180
+P 1150 4500
+F 0 "TP27" H 1208 4618 50  0000 L CNN
+F 1 "TestPoint" H 1208 4527 50  0000 L CNN
+F 2 "" H 1350 4500 50  0001 C CNN
+F 3 "~" H 1350 4500 50  0001 C CNN
+F 4 "S7043-ND" H 1150 4500 50  0001 C CNN "DigiKey"
+	1    1150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP22
+U 1 1 5EF0A47F
+P 850 4600
+F 0 "TP22" H 792 4626 50  0000 R CNN
+F 1 "TestPoint" H 792 4717 50  0000 R CNN
+F 2 "" H 1050 4600 50  0001 C CNN
+F 3 "~" H 1050 4600 50  0001 C CNN
+F 4 "S7041-ND" H 850 4600 50  0001 C CNN "DigiKey"
+	1    850  4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP24
+U 1 1 5EF0AFA3
+P 950 4600
+F 0 "TP24" H 892 4626 50  0000 R CNN
+F 1 "TestPoint" H 892 4717 50  0000 R CNN
+F 2 "" H 1150 4600 50  0001 C CNN
+F 3 "~" H 1150 4600 50  0001 C CNN
+F 4 "S7041-ND" H 950 4600 50  0001 C CNN "DigiKey"
+	1    950  4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP26
+U 1 1 5EF0B292
+P 1050 4600
+F 0 "TP26" H 992 4626 50  0000 R CNN
+F 1 "TestPoint" H 992 4717 50  0000 R CNN
+F 2 "" H 1250 4600 50  0001 C CNN
+F 3 "~" H 1250 4600 50  0001 C CNN
+F 4 "S7041-ND" H 1050 4600 50  0001 C CNN "DigiKey"
+	1    1050 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP28
+U 1 1 5EF0BE5F
+P 1150 4600
+F 0 "TP28" H 1092 4626 50  0000 R CNN
+F 1 "TestPoint" H 1092 4717 50  0000 R CNN
+F 2 "" H 1350 4600 50  0001 C CNN
+F 3 "~" H 1350 4600 50  0001 C CNN
+F 4 "S7041-ND" H 1150 4600 50  0001 C CNN "DigiKey"
+	1    1150 4600
+	-1   0    0    1   
+$EndComp
+Text Notes 750  4300 0    50   ~ 0
+(just for digikey)
+Text Notes 600  4850 0    50   ~ 0
+Motor Driver Connectors
+$Comp
+L Connector:TestPoint TP29
+U 1 1 5EF0E1D1
+P 1750 4500
+F 0 "TP29" H 1808 4618 50  0000 L CNN
+F 1 "TestPoint" H 1808 4527 50  0000 L CNN
+F 2 "" H 1950 4500 50  0001 C CNN
+F 3 "~" H 1950 4500 50  0001 C CNN
+F 4 "S7004-ND" H 1750 4500 50  0001 C CNN "DigiKey"
+	1    1750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP30
+U 1 1 5EF16CF5
+P 1850 4500
+F 0 "TP30" H 1908 4618 50  0000 L CNN
+F 1 "TestPoint" H 1908 4527 50  0000 L CNN
+F 2 "" H 2050 4500 50  0001 C CNN
+F 3 "~" H 2050 4500 50  0001 C CNN
+F 4 "S7004-ND" H 1850 4500 50  0001 C CNN "DigiKey"
+	1    1850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP31
+U 1 1 5EF16FB4
+P 1950 4500
+F 0 "TP31" H 2008 4618 50  0000 L CNN
+F 1 "TestPoint" H 2008 4527 50  0000 L CNN
+F 2 "" H 2150 4500 50  0001 C CNN
+F 3 "~" H 2150 4500 50  0001 C CNN
+F 4 "S7004-ND" H 1950 4500 50  0001 C CNN "DigiKey"
+	1    1950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP32
+U 1 1 5EF172C1
+P 2050 4500
+F 0 "TP32" H 2108 4618 50  0000 L CNN
+F 1 "TestPoint" H 2108 4527 50  0000 L CNN
+F 2 "" H 2250 4500 50  0001 C CNN
+F 3 "~" H 2250 4500 50  0001 C CNN
+F 4 "S7004-ND" H 2050 4500 50  0001 C CNN "DigiKey"
+	1    2050 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
