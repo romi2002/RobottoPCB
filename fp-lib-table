@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name TurtlebotController)(type KiCad)(uri ${KIPRJMOD}/TurtlebotController.pretty)(options "")(descr ""))
-  (lib (name Connector_AMASS)(type KiCad)(uri ${KIPRJMOD}/Connector_AMASS)(options "")(descr ""))
-  (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/teensy.pretty)(options "")(descr ""))
-)
